@@ -1,0 +1,2 @@
+console.cleart()
+let name
