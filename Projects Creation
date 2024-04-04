@@ -1,0 +1,9 @@
+function project(architecture){
+    const a = architecture[0]
+    const projects = Number(architecture[1])
+    const c = projects * 3
+    console.log(`The architect ${a} will need ${c} hours to complete ${projects} project/s.`)
+    
+
+
+}
