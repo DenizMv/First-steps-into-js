@@ -1,0 +1,9 @@
+function price(quadrat){
+    const quadratMeter = Number(quadrat[0])
+    const totalPriceWithoutDiscount = quadratMeter * 7.61
+    const discount = totalPriceWithoutDiscount * 0.18
+    const toPay = totalPriceWithoutDiscount - discount
+    console.log(`The final price is: ${toPay} lv.`)
+    console.log(`The discount is: ${discount} lv.`)
+
+}
