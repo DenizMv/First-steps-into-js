@@ -1,0 +1,9 @@
+function amount(money){
+    const a = Number(money[0])
+    const b = Number(money[1])
+    const c = Number(money[2])
+    const multiply = a * c / 100
+    const divide = multiply / 12
+    console.log(a + b * divide)
+
+}
