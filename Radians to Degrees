@@ -1,0 +1,3 @@
+function degree(pi){
+    console.log(pi * 180 / Math.PI)
+}
