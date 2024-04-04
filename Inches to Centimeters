@@ -1,0 +1,5 @@
+function inches(inches) {
+const a = Number(inches[0])
+const result = a * 2.54
+console.log(result)
+}
