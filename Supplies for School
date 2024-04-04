@@ -1,0 +1,8 @@
+function book(side){
+    const a = Number(side[0])
+    const b = Number(side[1])
+    const c = Number(side[2])
+    const divide = a / b
+    console.log(divide / c) 
+
+}
