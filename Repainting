@@ -1,0 +1,15 @@
+function build(renovate) {
+    const pvc = Number(renovate[0])
+    const paint = Number(renovate[1])
+    const tinner = Number(renovate[2])
+    const hour = Number(renovate[3])
+    const totalPvc = (pvc + 2) * 1.50
+    const divider = paint * 0.1
+    const totalPaint = (paint + divider) * 14.50
+    const totalTinner = tinner * 5.00
+    const totalRepairPrice = totalPvc + totalPaint + totalTinner + 0.40
+    const divide1 = 30 / 100
+    const workerPrice = (totalRepairPrice * divide1) * hour
+    const endResult = totalRepairPrice + workerPrice
+    console.log(endResult)
+}
