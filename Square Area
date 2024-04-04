@@ -1,0 +1,4 @@
+function squareQuad(stringNumber){
+const a = Number(stringNumber[0])
+console.log(a * a);
+}
