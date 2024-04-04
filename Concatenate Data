@@ -1,0 +1,7 @@
+function concatenateData(data){
+    const firstName = data[0]
+    const lastName = data[1]
+    const age = data[2]
+    const town = data[3]
+    console.log(`You are ${firstName} ${lastName}, a ${age}-years old person from ${town}. `)
+}
