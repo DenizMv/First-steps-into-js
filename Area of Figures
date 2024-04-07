@@ -1,0 +1,26 @@
+function figure(input) {
+    const figure = (input[0])
+    if (figure === 'square') {
+        const side = Number(input[1])
+        console.log('square')
+        const square = side ** 2
+        console.log(square)
+    } else if (figure === 'rectangle') {
+        const lenght = Number(input[1])
+        const width = Number(input[2])
+        console.log('rectangle')
+        const rectangle = lenght * width
+        console.log(rectangle)
+    } else if (figure === 'circle') {
+        const radius = Number(input[1])
+        console.log('circle')
+        const circle = Math.PI * radius ** 2
+        console.log(circle)
+    } else if (figure === 'triangle') {
+        const base = Number(input[1])
+        const high = Number(input[2])
+        console.log('triangle')
+        const triangle = (base * high) / 2
+        console.log(triangle)
+    }
+}
